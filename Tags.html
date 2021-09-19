@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TAGS</title>
+  </head>
+  <body>
+
+    <h1>Die wichtigsten HTML-Tags und Elemente</h1>
+
+    <h2>Links, Paragraphen, und so weiter</h2>
+
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Das ist ein Link. Klick drauf!</a>
+
+    <p>Das ist ein Paragraph. Hier wird normalerweise Text eingefügt. </p>
+    <blockquote>Ein Zitat.</blockquote>
+
+    <hr> <!-- Das ist einfach nur ein Strich, kam bei unserer Prüfung dran :D-->
+
+    <h2>Semantiken</h2>  
+    <p>Strukturelemente zur Unterteilung der Website</p>
+
+    <main>Zeigt an welches der Hauptcontent der Website ist.</main>
+    <header>Der Header befindet sich ganz oben auf der Website. Beinhaltet meist Navigationselemente wie Links oder das Logo.</header>
+    <footer>Der Footer befindet sich ganz unten auf der Website. Beinhaltet meist Kontaktdaten, Links, Copyright, Impressum, etc.</footer>
+    <nav>Nav dient zum erstellen einer Navigationsleiste.</nav>
+    <section>Eine Section wird genutzt um header und footer einzurahmen.</section>
+    <article>In einem Article wird unabhängiger Content deklariert.</article>
+    <div>Ein Div ist ein Behältnis für unabhängigen Content und zur Einteilung.</div>
+
+    <hr> 
+
+    <h2>Tabellen</h2>
+    <p>Um eine Tabelle zu erstellen braucht man mehrere Elemente. <br>
+        tr = table row = die Zeile einer Tabelle. <br>
+        th = table header = Die "Oberbegriffszeile", braucht man nicht zwingend. <br>
+        td = table data = Daten die man in die Tabelle einfügen will. <br>
+        Hier ein kleines Beispiel:</p>
+
+    <table>
+        <tr>
+          <th>Vorlesung</th>
+          <th>Professor</th>
+          <th>ECTS</th>
+        </tr>
+        <tr>
+          <td>SE 1</td>
+          <td>Goik</td>
+          <td>8 </td>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>Heuzeroth</td>
+          <td>5</td>
+        </tr>
+      </table>
+
+
+    <hr>
+
+    <h2>Listen</h2>
+
+    <p>Es gibt unterschiedliche Arten von Listen: ungeordnete, geordnete und beschreibende.</p>
+
+    <h4>Die ungeordnete Liste</h4>
+    <ul>
+        <li>Das erste Element der Liste.</li>
+        <li>Bei einer ungeordneten Liste werden Aufzählungszeichen statt Zahlen verwendet.</li>
+        <li>Diese Aufzählungszeichen kann man natürlich auch später noch in CSS ändern.</li>
+    </ul>
+    
+    <h4>Die geordnete Liste</h4>
+    <ol>
+        <li>Hier wird mit Zahlen statt Zeichen aufgezählt.</li>
+        <li>Die kann man auch ändern, wenn man etwas anderes dort stehen haben will.</li>
+        <li>Aber so ist es am Anfang am leichtesten zu verstehen.</li>
+    </ol>
+
+    <h4>Die beschreibende Liste</h4>
+    <dl>
+        <dt>Was ist das?</dt>
+        <dd>- Eine Liste mit Description.</dd>
+        <dt>Was macht man da rein?</dt>
+        <dd>- Dinge die man beschreiben möchte.</dd>
+      </dl>
+
+    <hr> 
+
+
+    <h2>Input Möglichkeiten</h2>
+    <p>Ich schreibe jetzt nicht zu jedem einzelnen Input Element eine Erklärung, ich denke die verstehen sich von selbst. Wichtig ist diese immer mit einem Label zu deklarieren.<br>
+        Auskommentieren und ausprobieren.</p>
+    
+        <!-- <input type="button"> -->
+        <!-- <input type="checkbox"> -->
+        <!-- <input type="color"> -->
+        <!-- <input type="date"> -->
+        <!-- <input type="datetime-local"> -->
+        <!-- <input type="email"> -->
+        <!-- <input type="file"> -->
+        <!-- <input type="hidden"> -->
+        <!-- <input type="image"> -->
+        <!-- <input type="month"> -->
+        <!-- <input type="number"> -->
+        <!-- <input type="password"> -->
+        <!-- <input type="radio"> -->
+        <!-- <input type="range"> -->
+        <!-- <input type="reset"> -->
+        <!-- <input type="search"> -->
+        <!-- <input type="submit"> -->
+        <!-- <input type="tel"> -->
+        <!-- <input type="text"> (default value) -->
+        <!-- <input type="time"> -->
+        <!-- <input type="url"> -->
+        <!-- <input type="week"> -->
+
+    <p>Hier ein Beispiel mit korrekter Syntax.</p>  
+        <form>
+            <label for="vname">Vorname:</label>
+            <input type="text" id="vname" name="vname"><br><br> <!-- Das ist übrigens ein Zeilenbruch. Eigentlich sind es zwei.-->
+            <label for="nname">Nachname:</label>
+            <input type="text" id="nname" name="nname"><br><br>
+            <input type="submit" value="Absenden">
+        </form>
+
+
+
+    <hr> 
+
+    <h2>Medien</h2>
+    <p>Um Medien auf einer Website einzufügen gibt es folgende Möglichkeiten:</p>
+
+    <h4>Bilder</h4>
+    <img src="images/hdm-logo.png" alt="Das HDM Logo">
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+    <p>Das "alt"-Attribut dient hierbei vor allem der Usability (HCI im 2. Semester). Dadurch können z.b. Blinde mit ihren Screenreadern erfahren was auf einem Bild zu sehen ist. <br>
+        Das "src"-Attribut spezifiziert die Herkunft des Bildes. Entweder aus einem Lokalen Ordner, oder von einer Fremdwebsite. Funktioniert mit Formaten wie gif, svg, png, jpg etc.
+    </p>
+
+    <h4>Videos</h4>
+
+    <video width="100" height="50" autoplay muted>
+        <source src="hierGibtsKeinVideoZorry.mp4" type="video/mp4"> <!-- So sollte es ungefähr aussehen, wenn man ein Video hat.-->
+    </video>
+
+    <p>Videos sind recht ähnlich zu Bildern. Man braucht eine src, aber dazu auch noch den type in dem das Format angegeben wird. Das obere Video wird als autoplay und gemuted abgespielt, <br>
+    Wie die ganzen nervigen Werbungen immer. Außerdem ist die Größe des Fensters angegeben (kann man aber auch mit CSS machen). </p>
+
+    <h4>Audio</h4>
+
+    <audio controls>
+        <source src="hierGibtsAuchKeinenSoundIchHabNichtsAufMeinemPC.mp3" type="audio/mp3" alt="VersuchsGarNichtErst">
+    </audio>
+
+    <p>Audios sind recht ähnlich zu Videos. Man braucht eine src, aber dazu auch noch den type in dem das Format angegeben wird. Controls gibt dann sowas wie play, pause und volume an.</p>
+
+    <h4>Weitere Attribute für Audio und Video.</h4>
+    <p>autoplay, buffered, controls, crossorigin, height, loop, muted, played, preload,poster, src, width. Wie gut diese allerdings funktionieren kommt auf den Browser an.</p>
+
+    <hr> 
+    <h2>Überschriften in allen Größen</h2>
+
+    <h1>Überschrift 1</h1>
+    <h2>Überschrift 2</h2>
+    <h3>Überschrift 3</h3>
+    <h4>Überschrift 4</h4>
+    <h5>Überschrift 5</h5>
+    <h6>Überschrift 6</h6>
+   
+
+  </body>
+</html>
