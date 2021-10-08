@@ -2,9 +2,23 @@
 
 Here you will find documents and explanations in german on various topics that are part of Web Development 1.  <br>
 During the semester I will create more cheat sheets and share some resources for exam preparation. <br>
-If you have any questions please don't hestitate to ask.
+If you have any questions please don't hestitate to ask. <br>
 
-# Website Recommendations for UI-Design
+## Where to look up stuff
+https://wiki.selfhtml.org/ // selfhtml <br>
+https://developer.mozilla.org/de/ // MDN <br>
+https://www.w3schools.com/ // W3schools
+
+## Validating your code
+https://validator.w3.org/ // W3 <br>
+https://www.freeformatter.com/html-validator.html // FreeFormatter
+
+## Browser Games
+https://flukeout.github.io/ // CSS Diner - Cascading rules <br>
+http://flexboxfroggy.com/#de // Flexbox Froggy - Flexbox practice <br>
+http://www.flexboxdefense.com/ // Flexbox Defense - Flexbox practice
+
+## Website Recommendations for UI-Design
 https://codepen.io/ // Look up code <br>
 https://blobs.app/// Create blobs <br>
 https://simpleicons.org/ // Icons <br>
@@ -21,6 +35,5 @@ https://bgjar.com/ // SVG backgrounds <br>
 https://thispersondoesnotexist.com/ // Random AI generated people <br>
 
 
-
-# License
+## License
 (c) 2021 Michelle Jürgens and contributors
