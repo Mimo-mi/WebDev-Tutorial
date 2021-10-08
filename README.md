@@ -6,19 +6,19 @@ If you have any questions please don't hestitate to ask.
 
 # Website Recommendations for UI-Design
 https://codepen.io/ // Look up code <br>
-https://blobs.app/?e=6&gw=6&se=321390&c=d1d8e0&o=0 // Create blobs for your Website <br>
+https://blobs.app/// Create blobs <br>
 https://simpleicons.org/ // Icons <br>
-https://uifaces.co/ // Avatars for design mockups <br>
-https://lottiefiles.com/ // small animations <br>
-https://kaboompics.com/ // Free Stock Photos <br>
+https://uifaces.co/ // Avatars <br>
+https://lottiefiles.com/ // Small animations <br>
+https://kaboompics.com/ // Free to use Stock Photos <br>
 https://getwaves.io/ // Create waves <br>
-https://logoipsum.com/ // Fake Logos <br>
-https://streamlinehq.com/ // icons, illustrations and emoji for all your projects <br>
+https://logoipsum.com/ // Logos <br>
+https://streamlinehq.com/ // Icons, illustrations and emojis <br>
 https://cssbuttons.io/ // Button Designs <br>
-https://mycolor.space/?hex=%235E87C2&sub=1 // Color Palettes <br>
+https://mycolor.space/ // Color Palettes <br>
 https://www.remove.bg/de // Remove background from pictures <br>
 https://bgjar.com/ // SVG backgrounds <br>
-https://thispersondoesnotexist.com/ // Random AI generated people that don't exist <br>
+https://thispersondoesnotexist.com/ // Random AI generated people <br>
 
 
 
