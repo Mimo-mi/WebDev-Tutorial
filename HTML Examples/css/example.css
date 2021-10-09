@@ -1,0 +1,36 @@
+/* Klasse + Element */
+.content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: hsl(60,100%,97.1%);
+
+    text-align: center;
+}
+
+/* Klasse */
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Id */
+#more {
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    color: hsl(0,0%,66.3%);
+}
+
+/* Element */
+a {
+    color: hsl(62,100%,47.1%);
+    text-decoration: none;
+}
+
+/* Pseudo Klasse */
+a:hover {
+    color: hsl(0,100%,25.1%);
+}
