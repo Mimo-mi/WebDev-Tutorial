@@ -33,6 +33,7 @@ https://mycolor.space/ // Color Palettes <br>
 https://www.remove.bg/de // Remove background from pictures <br>
 https://bgjar.com/ // SVG backgrounds <br>
 https://thispersondoesnotexist.com/ // Random AI generated people <br>
+https://animista.net/ // CSS Animations
 
 
 ## License
