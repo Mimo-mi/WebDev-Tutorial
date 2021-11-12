@@ -33,8 +33,8 @@ https://mycolor.space/ // Color Palettes <br>
 https://www.remove.bg/de // Remove background from pictures <br>
 https://bgjar.com/ // SVG backgrounds <br>
 https://thispersondoesnotexist.com/ // Random AI generated people <br>
-https://animista.net/ // CSS Animations
-
+https://animista.net/ // CSS Animations <br>
+https://app.haikei.app/ // Decorative SVGs 
 
 ## License
 (c) 2021 Michelle Jürgens and contributors
