@@ -16,7 +16,8 @@ https://www.freeformatter.com/html-validator.html // FreeFormatter
 ## Browser Games
 https://flukeout.github.io/ // CSS Diner - Cascading rules <br>
 http://flexboxfroggy.com/#de // Flexbox Froggy - Flexbox practice <br>
-http://www.flexboxdefense.com/ // Flexbox Defense - Flexbox practice
+http://www.flexboxdefense.com/ // Flexbox Defense - Flexbox practice <br>
+https://cssgridgarden.com/#de // Grid Garden - CSS Grid practice
 
 ## Website Recommendations for UI-Design
 https://codepen.io/ // Look up code <br>
