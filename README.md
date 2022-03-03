@@ -21,7 +21,7 @@ https://cssgridgarden.com/#de // Grid Garden - CSS Grid practice
 
 ## Website Recommendations for UI-Design
 https://codepen.io/ // Look up code <br>
-https://blobs.app/// Create blobs <br>
+https://blobs.app/ // Create blobs <br>
 https://simpleicons.org/ // Icons <br>
 https://uifaces.co/ // Avatars <br>
 https://lottiefiles.com/ // Small animations <br>
